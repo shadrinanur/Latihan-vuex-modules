@@ -45,7 +45,7 @@
 <script>
 import Donatur from '../components/Donatur.vue';
 import Clients from '../components/Clients.vue';
-import Transaksi from '../store/modules/Transaksi';
+import Transaksi from '../components/Transaksi.vue';
 
 export default {
     data() {

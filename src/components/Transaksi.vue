@@ -3,14 +3,14 @@
         <table class="w-full max-w-full mb-4 bg-transparent table-hover table-bordered">
             <thead>
                 <tr>
-                    <th>#</th>
+                    <th>No</th>
                     <th>Donatur</th>
                     <th>Jenis Bantuan</th>
                     <th>Jumlah</th>
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="(row, index) in listTransaksi" :key="index" class="text center">
+                <tr v-for="(row, index) in listTransaksi" :key="index" class="text-center">
                 <td>{{ index + 1 }}</td>
                 <td>{{ row.donatur }}</td>
                 <td>{{ row.bantuan }}</td>
